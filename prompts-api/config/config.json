@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "baba",
+    "database": "prompts_api_development",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "baba",
+    "database": "prompts_api_test",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "postgres",
+    "password": "baba",
+    "use_env_variable": "DATABASE_URL",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": true
+    }
+  }
+}
